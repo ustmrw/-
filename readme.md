@@ -1,4 +1,4 @@
-This [link](stevenpjohnso/ufn.github.io/) goes to a page that holds the same following information:
+This [link](https://stevenpjohnso.github.io/ufn.github.io/) goes to a page that holds the same following information:
 
 # The Declaration of Independence of the United First Nations
 
