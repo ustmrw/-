@@ -10,6 +10,7 @@ Consider: Who was the audience?
 https://www.archives.gov/founding-docs/declaration-transcript
 
 # The Declaration of Independence of the United First Nations
+## Concept by Bing Compose
 
 *Note: I used the same prompt multiple times to test different settings. The specific configuration of the first version may have been in professional/paragraph/long format.*
 
@@ -35,7 +36,7 @@ We pledge to each other our lives, our fortunes and our sacred honor. We appeal 
 **v2**
 **5/2/23**
 
-We, the people of the United First Nations, in order to form a more perfect union, establish justice, ensure domestic tranquility, provide for the common defense, promote the general welfare, and secure the blessings of liberty to ourselves and our posterity, do ordain and establish this Declaration of Independence for the United First Nations.
+"We, the people of the United First Nations, in order to form a more perfect union, establish justice, ensure domestic tranquility, provide for the common defense, promote the general welfare, and secure the blessings of liberty to ourselves and our posterity, do ordain and establish this Declaration of Independence for the United First Nations.
 
 We hold these truths to be self-evident, that all people are created equal, that they are endowed by their Creator with certain unalienable rights, that among these are life, liberty, and the pursuit of happiness. That to secure these rights, governments are instituted among people, deriving their just powers from the consent of the governed. That whenever any form of government becomes destructive of these ends, it is the right of the people to alter or to abolish it, and to institute new government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their safety and happiness.
 
@@ -45,11 +46,11 @@ We pledge to each other our lives, our fortunes, and our sacred honor. We pledge
 
 We appeal to the Supreme Judge of the world for the rectitude of our intentions. We appeal to the opinions of humankind for the justice of our cause. We appeal to the future generations for the sustainability of our vision.
 
-We hereby declare ourselves as the United First Nations.
+We hereby declare ourselves as the United First Nations."
 
 **v3**
 
-We, the representatives of the United First Nations, in General Congress assembled, solemnly declare and publish to the world our reasons for dissolving the political bands which have connected us with the United States of America, and for assuming among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle us.
+"We, the representatives of the United First Nations, in General Congress assembled, solemnly declare and publish to the world our reasons for dissolving the political bands which have connected us with the United States of America, and for assuming among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle us.
 
 We hold these truths to be self-evident, that all people are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness. That to secure these rights, Governments are instituted among People, deriving their just powers from the consent of the governed. That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness.
 
@@ -65,11 +66,11 @@ We, therefore, the Representatives of the United First Nations of America, in Ge
 
 That these United Nations are, and of Right ought to be Free and Independent States; that they are Absolved from all Allegiance to the United States of America; that all political connection between them and that Government is and ought to be totally dissolved; and that as Free and Independent States they have full Power to levy War, conclude Peace contract Alliances establish Commerce and to do all other Acts and Things which Independent States may of right do.
 
-And for the support of this Declaration with a firm reliance on the protection of divine Providence we mutually pledge to each other our Lives our Fortunes and our sacred Honor.
+And for the support of this Declaration with a firm reliance on the protection of divine Providence we mutually pledge to each other our Lives our Fortunes and our sacred Honor."
 
 **v4** 
 
-To all people of the world,
+"To all people of the world,
 
 We, the representatives of the United First Nations, in general congress assembled, solemnly publish and declare that these nations are, and of right ought to be, free and independent states; that they are absolved from all allegiance to the former United States of America, and that all political connection between them and the said states is and ought to be totally dissolved; and that as free and independent states, they have full power to levy war, conclude peace, contract alliances, establish commerce, and to do all other acts and things which independent states may of right do.
 
@@ -83,7 +84,7 @@ Done in convention by the unanimous consent of the nations present on this secon
 
 Signed,
 
-The Representatives of the United First Nations
+The Representatives of the United First Nations"
 
 # My Approach to the Constitution of the UFN
 
