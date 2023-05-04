@@ -86,13 +86,14 @@ Signed,
 
 The Representatives of the United First Nations"
 
-# My Approach to the Constitution of the UFN
+# My Approach to the Constitution
 
- - Term limits on all members to one year. 
- - the 2nd amendment must be a right to well-being. This includes a right to healthcare and information. If you own a gun, prove you know how to use it. The sharpest shooters get to keep their weapons. The worse you, the more the government will pay to sell your weapon to the better shooters who will be our militia.
- - Every citizen has complete control over every system in their own body.
- - The economic system of this country shall be that of sociocracy. No longer will wage slavery be exported in return for the exploited products and services of another.
+ - Term limits on all members to one year. We vote via concensus. 
+ - The 1st or 2nd amendment must include a right to well-being. This includes a right to healthcare and information. If you own a gun, prove you know how to use it. The sharpest shooters get to keep their weapons. The worse you are, the more the government will pay you to sell your weapon to the better shooters who will be our militia.
+ - Policing can be done by an app. 
+ - Every citizen has complete control over every system in their own body. And every citizen's input is valued.
+ - The governing system of this country shall be sociocracy. This includes on political, economic, and social matters. 
+ - The central bank of the country will provide for the needs of all citizens. 
  - Every citizen gets equal access to a UBI, healthcare, education, housing, clothing, information, technology, and a job that builds a sustainable future for themselves.
- - And that about sums up what I/maybe we want. Rich people get all the rest peace out.
 
 ## Give us liberty or give us death.
