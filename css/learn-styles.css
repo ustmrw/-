@@ -10846,3 +10846,8 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+.resize-img {
+  width: 40px;
+  height: 40px;
+}
