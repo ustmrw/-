@@ -169,7 +169,7 @@
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="demo/404.html">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="demo/img/undraw_profile_2.svg" alt="...">
+                                        <img class="rounded-circle" src="img/undraw_profile_M.svg" alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
@@ -190,7 +190,7 @@
                             <a class="nav-link dropdown-toggle" href="demo/404.html" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Your Name</span>
-                                <img class="img-profile rounded-circle" src="demo/img/undraw_profile_3.svg">
+                                <img class="img-profile rounded-circle" src="img/undraw_profile_F.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -347,7 +347,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <div class="chart-area">
-                                        <canvas id="myAreaChart"></canvas>
+                                        <canvas id="myPayAreaChart"></canvas>
                                     </div>
                                 </div>
                             </div>
@@ -399,17 +399,108 @@
                     <div class="row">
 
                         <!-- Content Column -->
-                        <div class="col-lg-12">
+                        <div class="col-lg-4">
 
                             <!-- Approach -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Note</h6>
                                 </div>
                                 <div class="card-body">
-                                    <strong>The UFN Proposal imagines the world of the late 20s. One where a universal
-                                        basic income is given to all citizens.</strong>
-                                    <p class="mb-0"></p>
+                                    <strong>Development Approach</strong>
+                                    <p class="mb-0">The UFN Proposal imagines the world of the late 20s. One where a universal
+                                        basic income is given to all citizens.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Area Chart -->
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">UFN Population Over Time</h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown-toggle" href="demo/404.html" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">Actions:</div>
+                                            <a class="dropdown-item" href="demo/404.html">Download CSV</a>
+                                            <a class="dropdown-item" href="demo/404.html">Download XLSX</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="demo/404.html">Cancel</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="chart-area">
+                                        <canvas id="ufnGrowthAreaChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Community Projects</h6>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="small font-weight-bold">15 Minute Towns <span
+                                            class="float-right">20%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%"
+                                            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Infrastructure Upgrade<span
+                                            class="float-right">40%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 40%"
+                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Green Energy Adoption (Global)<span
+                                            class="float-right">60%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"
+                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">End Poverty<span class="float-right">80%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
+                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">USA to UFN Citizenship Conversion<span
+                                            class="float-right">Complete!</span></h4>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
+                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <!-- Online Elections -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Civic Engagement</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p><strong>Weekly Elections Prior to Monthly Referendum</strong></p>
+                                    <p>Weekly; 1 more week to go.</p>
+                                    <p class="mb-0"><strong>Dates Ahead</strong></p>
+                                    <p>This week's election.</p>
+                                    <p>Don't forget: Next week's referendum. Please prepare your proposals beforehand!
+                                    </p>
+                                    </br>
+                                    <a href="demo/404.html"
+                                        class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                            class="fas fa-handshake fa-sm text-white-50"></i> Meetings live! Launch
+                                        Zoom</a>
                                 </div>
                             </div>
                         </div>
@@ -548,66 +639,6 @@
                                             <div class="date">4</div>
                                         </li>
                                     </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <!-- Project Card Example -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Community Projects</h6>
-                                </div>
-                                <div class="card-body">
-                                    <h4 class="small font-weight-bold">15 Minute Towns <span
-                                            class="float-right">20%</span></h4>
-                                    <div class="progress mb-4">
-                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%"
-                                            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <h4 class="small font-weight-bold">Infrastructure Upgrade<span
-                                            class="float-right">40%</span></h4>
-                                    <div class="progress mb-4">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 40%"
-                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <h4 class="small font-weight-bold">Green Energy Adoption (Global)<span
-                                            class="float-right">60%</span></h4>
-                                    <div class="progress mb-4">
-                                        <div class="progress-bar" role="progressbar" style="width: 60%"
-                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <h4 class="small font-weight-bold">End Poverty<span class="float-right">80%</span></h4>
-                                    <div class="progress mb-4">
-                                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
-                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <h4 class="small font-weight-bold">USA to UFN Citizenship Conversion<span
-                                            class="float-right">Complete!</span></h4>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
-                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <!-- Online Elections -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Civic Engagement</h6>
-                                </div>
-                                <div class="card-body">
-                                    <p><strong>Weekly Elections Prior to Monthly Referendum</strong></p>
-                                    <p>Weekly; 1 more week to go.</p>
-                                    <p class="mb-0"><strong>Dates Ahead</strong></p>
-                                    <p>This week's election.</p>
-                                    <p>Don't forget: Next week's referendum. Please prepare your proposals beforehand!
-                                    </p>
-                                    </br>
-                                    <a href="demo/404.html"
-                                        class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                            class="fas fa-handshake fa-sm text-white-50"></i> Meetings live! Launch
-                                        Zoom</a>
                                 </div>
                             </div>
                         </div>
