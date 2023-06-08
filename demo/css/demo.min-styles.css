@@ -12102,19 +12102,19 @@ a:focus {
 }
 
 .bg-login-image {
-    background: url(https://source.unsplash.com/K4mSJ7kc0As/600x800);
+    background: url(../img/cherryblossoms.jpg);
     background-position: center;
     background-size: cover
 }
 
 .bg-register-image {
-    background: url(https://source.unsplash.com/Mv9hjnEUHR4/600x800);
+    background: url(../img/cherryblossoms.jpg);
     background-position: center;
     background-size: cover
 }
 
 .bg-password-image {
-    background: url(https://source.unsplash.com/oWTW-jNGl9I/600x800);
+    background: url(../img/cherryblossoms.jpg);
     background-position: center;
     background-size: cover
 }
@@ -12176,44 +12176,44 @@ form.user .btn-user {
     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .5)
 }
 
-.btn-facebook {
+.btn-microsoft {
     color: #fff;
-    background-color: #3b5998;
+    background-color: #000;
     border-color: #fff
 }
 
-.btn-facebook:hover {
+.btn-microsoft:hover {
     color: #fff;
-    background-color: #30497c;
+    background-color: #18181c;
     border-color: #e6e6e6
 }
 
-.btn-facebook.focus,
-.btn-facebook:focus {
+.btn-microsoft.focus,
+.btn-microsoft:focus {
     color: #fff;
     background-color: #30497c;
     border-color: #e6e6e6;
     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .5)
 }
 
-.btn-facebook.disabled,
-.btn-facebook:disabled {
+.btn-microsoft.disabled,
+.btn-microsoft:disabled {
     color: #fff;
     background-color: #3b5998;
     border-color: #fff
 }
 
-.btn-facebook:not(:disabled):not(.disabled).active,
-.btn-facebook:not(:disabled):not(.disabled):active,
-.show>.btn-facebook.dropdown-toggle {
+.btn-microsoft:not(:disabled):not(.disabled).active,
+.btn-microsoft:not(:disabled):not(.disabled):active,
+.show>.btn-microsoft.dropdown-toggle {
     color: #fff;
     background-color: #2d4373;
     border-color: #dfdfdf
 }
 
-.btn-facebook:not(:disabled):not(.disabled).active:focus,
-.btn-facebook:not(:disabled):not(.disabled):active:focus,
-.show>.btn-facebook.dropdown-toggle:focus {
+.btn-microsoft:not(:disabled):not(.disabled).active:focus,
+.btn-microsoft:not(:disabled):not(.disabled):active:focus,
+.show>.btn-microsoft.dropdown-toggle:focus {
     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .5)
 }
 
