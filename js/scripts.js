@@ -31,12 +31,6 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    const demo = document.getElementById('demo');
-    demo.addEventListener('click', function() {
-    // Redirect to demoindex.html
-    window.location.href = 'demoindex.html';
-    });
-
     // Toggle the side navigation
     const sidebarToggle = document.body.querySelector('#sidebarToggle');
     if (sidebarToggle) {
