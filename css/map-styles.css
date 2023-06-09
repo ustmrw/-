@@ -79,6 +79,37 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+:root {
+      --bs-body-color: #222;
+      --background-color: #fff;
+    }
+
+    body.dark-theme {
+      --bs-body-color: #eee;
+      --background-color: #121212;
+    }
+
+    @media (prefers-color-scheme: dark) {
+
+      /* defaults to dark theme */
+      body {
+        --bs-body-color: #eee;
+        --background-color: #121212;
+      }
+
+      body.light-theme {
+        --bs-body-color: #222;
+        --background-color: #fff;
+      }
+    }
+
+    .image-container {
+      transition: opacity 0.5s;
+    }
+
+    .image-container.hide {
+      opacity: 0;
+    }
 *,
 *::before,
 *::after {
@@ -384,7 +415,13 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  /* Safari, Chrome */
+  -moz-appearance: button;
+  /* Firefox */
+  appearance: button;
+  /* Standard property */
 }
+
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -442,6 +479,11 @@ legend + * {
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  /* Safari, Chrome */
+  -moz-appearance: textfield;
+  /* Firefox */
+  appearance: textfield;
+  /* Standard property */
 }
 
 /* rtl:raw:
@@ -463,6 +505,11 @@ legend + * {
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
+  /* Safari, Chrome */
+  -moz-appearance: button;
+  /* Firefox */
+  appearance: button;
+  /* Standard property */
 }
 
 output {
