@@ -79,37 +79,43 @@
   --bs-highlight-bg: #fff3cd;
 }
 
-:root {
-      --bs-body-color: #222;
-      --background-color: #fff;
-    }
+body.dark-theme {
+  --bs-body-color: #eee;
+  --bs-link-color: #eee;
+  --bs-link-hover-color: #eee;
+  --bs-primary: #eee;
+  --bs-secondary: #eee;
+  --bs-sidebar-heading: #eee;
+  --bs-body-bg: #121212;
+  --background-color: #121212;
+  --bs-border-color: #121212;
+  --bs-navbar-color: #121212;
+  --bs-sidebar-color: #121212;
+  --bs-card-body-color: #121212;
+}
 
-    body.dark-theme {
-      --bs-body-color: #eee;
-      --background-color: #121212;
-    }
+body.light-theme {
+  --bs-body-color: #121212;
+  --bs-link-color: #121212;
+  --bs-link-hover-color: #121212;
+  --bs-primary: #121212;
+  --bs-secondary: #121212;
+  --bs-body-bg: #eee;
+  --background-color: #eee;
+  --bs-border-color: #eee;
+  --bs-navbar-color: #eee;
+  --bs-sidebar-color: #eee;
+  --bs-card-body-color: #eee;
+}
 
-    @media (prefers-color-scheme: dark) {
+.image-container {
+  transition: opacity 0.5s;
+}
 
-      /* defaults to dark theme */
-      body {
-        --bs-body-color: #eee;
-        --background-color: #121212;
-      }
+.image-container.hide {
+  opacity: 0;
+}
 
-      body.light-theme {
-        --bs-body-color: #222;
-        --background-color: #fff;
-      }
-    }
-
-    .image-container {
-      transition: opacity 0.5s;
-    }
-
-    .image-container.hide {
-      opacity: 0;
-    }
 *,
 *::before,
 *::after {
@@ -5165,8 +5171,10 @@ textarea.form-control-lg {
 }
 
 .list-group-item-dark {
-  color: #141619;
-  background-color: #d3d3d4;
+  /* color: #141619; */
+  color: var(--bs-body-color);
+  /* background-color: #d3d3d4; */
+  background-color: #212529;
 }
 .list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {
   color: #141619;
@@ -10910,23 +10918,3 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
   }
 }
-
-a.button-style {
-  display: inline-block;
-  text-decoration: none;
-}
-
-a.button-style .sidebar-heading {
-  display: block;
-  padding: 10px;
-  color: #333;
-  font-weight: bold;
-  font-size: 16px;
-  /* Add any other styles you want */
-}
-
-a.button-style:hover .sidebar-heading {
-  /* Add hover styles for light mode */
-  background-color: #ebebeb;
-}
-
