@@ -10863,3 +10863,23 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
   }
 }
+
+a.button-style {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a.button-style .sidebar-heading {
+  display: block;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  /* Add any other styles you want */
+}
+
+a.button-style:hover .sidebar-heading {
+  /* Add hover styles for light mode */
+  background-color: #ebebeb;
+}
+
