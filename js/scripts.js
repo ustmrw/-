@@ -16,12 +16,15 @@ window.addEventListener('DOMContentLoaded', event => {
       offset: 74,
     });
   };
-  console.log('hello');
-  // Dark mode logic
+
+  // Theme settings save
   const currentTheme = localStorage.getItem("theme");
   if (currentTheme === "dark") {
     document.body.classList.add("dark-theme");
   } else if (currentTheme === "light") {
+    document.body.classList.add("light-theme");
+  } else {
+    // Default theme when no theme is set
     document.body.classList.add("light-theme");
   }
 

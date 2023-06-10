@@ -17,15 +17,12 @@
     <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <div class="border-end bg-dark" id="sidebar-wrapper">
-            <a href="index.html" class="button-style" style="text-decoration: none;">
-                <div class="sidebar-heading border-bottom bg-dark text-white" style="white-space: nowrap;">
-                    The United First Nations Proposal
-                </div>
-            </a>
+            <div class="sidebar-heading border-bottom bg-dark" style="white-space: nowrap;"><a href="index.html"
+                    class="button-style" style="text-decoration: none;">UFN Proposal Site Map</a></div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-dark p-3 text-grey"
+                <a class="list-group-item list-group-item-action list-group-item-dark p-3 text-white"
                     href="articles.html">Articles</a>
-                <a class="list-group-item list-group-item-action list-group-item-dark p-3 text-grey"
+                <a class="list-group-item list-group-item-action list-group-item-dark p-3 text-white"
                     href="map.html"><strong>Map</strong></a>
             </div>
         </div>
@@ -34,6 +31,7 @@
             <!-- Top navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
                 <div class="container-fluid">
+                    <button class="btn btn-primary" id="sidebarToggle">Menu</button>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation"><span
@@ -44,38 +42,47 @@
                             <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
                             <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
                             <li class="nav-item"><a class="nav-link" href="map.html"><strong>Map</strong></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Theme</a>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#!"><i class="fas fa-sun"
+                                        style="color: var(--bs-gray); font-size: 1.2rem; justify-items: left;"></i> Light</a>
+                                    <a class="dropdown-item" href="#!"><i class="fas fa-moon"
+                                        style="color: var(--bs-gray); font-size: 1.2rem; justify-items: left;"></i> Dark</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="map.html">Cancel</a>
+                                </div>
+                            </li>
                         </ul>
-                        <button class="btn-toggle" style="background-color: transparent; border-color: transparent;">
-                            <i class="fas fa-adjust" style="color: var(--bs-gray); font-size: 1.2rem;"></i>
-                        </button> 
                     </div>
                 </div>
             </nav>
             <!-- Page content-->
             <div class="container-fluid">
-                <h1 class="mt-4" style="font-weight: 400;">Map</h1>
+                <h1 class="mt-4">Map</h1>
                 <hr />
                 <ul>
                     <li>
-                        <h2><a class="nav-link" href="about.html" style="font-weight: 300;">About</a></h2>
+                        <h2><a class="nav-link" href="about.html">About</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles.html" style="font-weight: 300;">Articles</a></h2>
+                        <h2><a class="nav-link" href="articles.html">Articles</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="demo.html" style="font-weight: 300;">Demo</a></h2>
+                        <h2><a class="nav-link" href="demo.html">Demo</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="faq.html" style="font-weight: 300;">FAQs</a></h2>
+                        <h2><a class="nav-link" href="faq.html">FAQs</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="index.html" style="font-weight: 300;">Home</a></h2>
+                        <h2><a class="nav-link" href="index.html">Home</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="learn.html" style="font-weight: 300;">Learn</a></h2>
+                        <h2><a class="nav-link" href="learn.html">Learn</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="news.html" style="font-weight: 300;">News</a></h2>
+                        <h2><a class="nav-link" href="news.html">News</a></h2>
                     </li>
                 </ul>
             </div>

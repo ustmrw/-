@@ -17,15 +17,13 @@
     <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <div class="border-end bg-dark" id="sidebar-wrapper">
-            <a href="index.html" class="button-style" style="text-decoration: none;">
-                <div class="sidebar-heading border-bottom bg-dark" style="white-space: nowrap;">
-                    The United First Nations Proposal
-                </div>
-            </a>
+            <div class="sidebar-heading border-bottom bg-dark" style="white-space: nowrap;"><a href="index.html"
+                class="button-style" style="text-decoration: none;">UFN Proposal News</a></div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-dark p-3"
+                <a class="list-group-item list-group-item-action list-group-item-dark p-3 text-white"
                     href="articles.html"><strong>Articles</strong></a>
-                <a class="list-group-item list-group-item-action list-group-item-dark p-3" href="map.html">Map</a>
+                <a class="list-group-item list-group-item-action list-group-item-dark p-3 text-white" 
+                    href="map.html">Map</a>
             </div>
         </div>
         <!-- Page content wrapper-->
@@ -33,6 +31,7 @@
             <!-- Top navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
                 <div class="container-fluid">
+                    <button class="btn btn-primary" id="sidebarToggle">Menu</button>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation"><span
@@ -40,52 +39,60 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="articles.html"><strong>Articles</strong></a>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
                             <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
-                            <li class="nav-item"><a class="nav-link" href="map.html">Map</a></li>
-                            <button class="btn-toggle" style="background-color: transparent; border-color: transparent;">
-                                <i class="fas fa-adjust" style="color: var(--bs-gray); font-size: 1.2rem;"></i>
-                            </button>                                                 
+                            <li class="nav-item"><a class="nav-link" href="map.html"><strong>Map</strong></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Theme</a>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#!"><i class="fas fa-sun"
+                                        style="color: var(--bs-gray); font-size: 1.2rem; justify-items: left;"></i> Light</a>
+                                    <a class="dropdown-item" href="#!"><i class="fas fa-moon"
+                                        style="color: var(--bs-gray); font-size: 1.2rem; justify-items: left;"></i> Dark</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="articles.html">Cancel</a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <!-- Page content-->
             <div class="container-fluid">
-                <h1 class="mt-4" style="font-weight: 400;">Articles</h1>
+                <h1 class="mt-4">Articles</h1>
                 <hr />
                 <ul>
                     <li>
-                        <h2><a class="nav-link" href="articles/problems.html" style="font-weight: 300;">America, We Have A Problem</a></h2>
+                        <h2><a class="nav-link" href="articles/problems.html">America, We Have A Problem</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles/directdemocracy.html" style="font-weight: 300;">Benefits of Direct Democracy</a>
+                        <h2><a class="nav-link" href="articles/directdemocracy.html">Benefits of Direct Democracy</a>
                         </h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles/bookbansin2023.html" style="font-weight: 300;">Book Bans? We Have The Internet.</a>
+                        <h2><a class="nav-link" href="articles/bookbansin2023.html">Book Bans? We Have The Internet.</a>
                         </h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles/earh2270.html" style="font-weight: 300;">Earth 2270: We Only Vote By Internet</a>
+                        <h2><a class="nav-link" href="articles/earh2270.html">Earth 2270: We Only Vote By Internet</a>
                         </h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles/wwiii.html" style="font-weight: 300;">Have We Been In WWIII Since 9/11?</a></h2>
+                        <h2><a class="nav-link" href="articles/wwiii.html">Have We Been In WWIII Since 9/11?</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles/cbanalysis.html" style="font-weight: 300;">On-going Proposal Cost/Benefit Analysis</a>
+                        <h2><a class="nav-link" href="articles/cbanalysis.html">On-going Proposal Cost/Benefit Analysis</a>
                         </h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles/riwamerica.html" style="font-weight: 300;">Rest in War, America</a></h2>
+                        <h2><a class="nav-link" href="articles/riwamerica.html">Rest in War, America</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles/sociocracyexplained.html" style="font-weight: 300;">Sociocracy Explained</a></h2>
+                        <h2><a class="nav-link" href="articles/sociocracyexplained.html">Sociocracy Explained</a></h2>
                     </li>
                     <li>
-                        <h2><a class="nav-link" href="articles/whyufn.html" style="font-weight: 300;">Too Soon? Why WFN:</a></h2>
+                        <h2><a class="nav-link" href="articles/whyufn.html">Too Soon? Why WFN:</a></h2>
                     </li>
                 </ul>
             </div>
