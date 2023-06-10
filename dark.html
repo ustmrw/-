@@ -47,14 +47,6 @@
       color: var(--text-color);
     }
 
-    .image-container {
-      transition: opacity 0.5s;
-    }
-
-    .image-container.hide {
-      opacity: 0;
-    }
-
     .btn-toggle {
       margin-top: 20px; /* Add some space between the button and the text */
     }
@@ -70,15 +62,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
     <script>
       const btn = document.querySelector(".btn-toggle");
-      // Get all the image containers
-      const imageContainers = document.querySelectorAll('.image-container');
-
-      // Attach a click event listener to each image container
-      imageContainers.forEach(container => {
-        container.addEventListener('click', () => {
-          container.classList.toggle('hide');
-        });
-      });
 
       const currentTheme = localStorage.getItem("theme");
       if (currentTheme === "dark") {
