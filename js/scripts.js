@@ -8,19 +8,19 @@
 // 
 window.addEventListener('DOMContentLoaded', event => {
 
-// Toggle the side navigation
-    const sidebarToggle = document.body.querySelector('#sidebarToggle');
-    if (sidebarToggle) {
-        // Uncomment Below to persist sidebar toggle between refreshes
-        if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
-            document.body.classList.toggle('sb-sidenav-toggled');
-        }
-        sidebarToggle.addEventListener('click', event => {
-            event.preventDefault();
-            document.body.classList.toggle('sb-sidenav-toggled');
-            localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
-        });
+  // Toggle the side navigation
+  const sidebarToggle = document.body.querySelector('#sidebarToggle');
+  if (sidebarToggle) {
+    // Uncomment Below to persist sidebar toggle between refreshes
+    if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
+      document.body.classList.toggle('sb-sidenav-toggled');
     }
+    sidebarToggle.addEventListener('click', event => {
+      event.preventDefault();
+      document.body.classList.toggle('sb-sidenav-toggled');
+      localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
+    });
+  }
 
   // Activate Bootstrap scrollspy on the main nav element
   const mainNav = document.body.querySelector('#mainNav');
@@ -62,6 +62,27 @@ window.addEventListener('DOMContentLoaded', event => {
   imageContainers.forEach(container => {
     container.addEventListener('click', () => {
       container.classList.toggle('hide');
+    });
+  });
+
+  // iphone screenshot
+  var deviceWrappers = document.querySelectorAll(".device-wrapper");
+
+  deviceWrappers.forEach(function(wrapper) {
+    var images = wrapper.querySelectorAll(".device-image");
+  
+    wrapper.addEventListener("mouseenter", function() {
+      images[0].style.transition = "opacity 0.5s ease";
+      images[0].style.opacity = 0;
+      images[1].style.transition = "opacity 0.5s ease";
+      images[1].style.opacity = 1;
+    });
+  
+    wrapper.addEventListener("mouseleave", function() {
+      images[0].style.transition = "opacity 0.5s ease";
+      images[0].style.opacity = 1;
+      images[1].style.transition = "opacity 0.5s ease";
+      images[1].style.opacity = 0;
     });
   });
 
