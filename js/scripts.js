@@ -84,8 +84,18 @@ window.addEventListener('DOMContentLoaded', event => {
       images[1].style.transition = "opacity 0.5s ease";
       images[1].style.opacity = 0;
     });
+  
+    wrapper.addEventListener("click", function() {
+      var currentOpacity = parseFloat(images[0].style.opacity);
+      var nextOpacity = 1 - currentOpacity;
+      
+      images[0].style.transition = "opacity 0.5s ease";
+      images[0].style.opacity = nextOpacity;
+      images[1].style.transition = "opacity 0.5s ease";
+      images[1].style.opacity = currentOpacity;
+    });
   });
-
+  
   // const event = document.querySelector(".btn-toggle");
   // event.addEventListener("click", function () {
   //   document.body.classList.toggle("dark-theme");
