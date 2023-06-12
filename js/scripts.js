@@ -31,15 +31,22 @@ window.addEventListener('DOMContentLoaded', event => {
     });
   };
 
+  // Set theme
+  function setMode(mode) {
+    const body = document.querySelector('body');
+    body.classList.remove('light-mode', 'dark-mode', 'auto-mode');
+    body.classList.add(mode + '-mode');
+}
+
   // Theme settings save
   const currentTheme = localStorage.getItem("theme");
   if (currentTheme === "dark") {
-    document.body.classList.add("dark-theme");
+    document.body.classList.add("dark-mode");
   } else if (currentTheme === "light") {
-    document.body.classList.add("light-theme");
+    document.body.classList.add("light-mode");
   } else {
     // Default theme when no theme is set
-    document.body.classList.add("light-theme");
+    document.body.classList.add("auto-mode");
   }
 
   // Collapse responsive navbar when toggler is visible
@@ -95,16 +102,4 @@ window.addEventListener('DOMContentLoaded', event => {
       images[1].style.opacity = currentOpacity;
     });
   });
-  
-  // const event = document.querySelector(".btn-toggle");
-  // event.addEventListener("click", function () {
-  //   document.body.classList.toggle("dark-theme");
-  //   document.body.classList.toggle("light-theme");
-
-  //   if (document.body.classList.contains("light-theme")) {
-  //     localStorage.setItem("theme", "light");
-  //   } else {
-  //     localStorage.setItem("theme", "dark");
-  //   }
-  // });
 });
