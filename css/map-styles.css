@@ -52,17 +52,17 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
+  /* --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255; */
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
+  /* --bs-body-font-weight: 400; */
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  /* --bs-body-color: #212529;
+  --bs-body-bg: #fff; */
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
+  /* --bs-link-color: #0d6efd;
+  --bs-link-hover-color: #0a58ca; */
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -89,6 +89,21 @@
   :root {
     scroll-behavior: smooth;
   }
+}
+
+body {
+  margin: 0;
+  padding: 0'
+  height: 100%;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  /* font-weight: var(--bs-body-font-weight); */
+  line-height: var(--bs-body-line-height);
+  /* color: var(--bs-body-color); */
+  text-align: var(--bs-body-text-align);
+  /* background-color: var(--bs-body-bg); */
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .body.dark-mode {
@@ -106,6 +121,10 @@
   --bs-card-body-color: #121212;
 }
 
+body.dark-mode ul li {
+  font-weight: 300;
+}
+
 .body.light-mode {
   --bs-body-color: #121212;
   --bs-link-color: #121212;
@@ -118,20 +137,6 @@
   --bs-navbar-color: #eee;
   --bs-sidebar-color: #eee;
   --bs-card-body-color: #eee;
-}
-
-
-body {
-  margin: 0;
-  font-family: var(--bs-body-font-family);
-  font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
-  line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
-  text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 hr {
