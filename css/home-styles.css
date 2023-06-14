@@ -3795,7 +3795,10 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 .navbar-brand:hover, .navbar-brand:focus {
-  color: var(--bs-navbar-brand-hover-color);
+  background: linear-gradient(45deg, #2937f0, #8EF0CF); /* Replace with your desired gradient colors */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .navbar-nav {
@@ -10887,6 +10890,15 @@ section {
 
 .app-badge {
   height: 3rem;
+  transition: background-color 0.3s ease;
+}
+
+.app-badge:hover {
+  filter: brightness(1.8); /* Lighten the badge on hover */
+}
+
+.app-badge:active {
+  filter: brightness(0.8); /* Darken the badge on click */
 }
 
 #mainNav {
