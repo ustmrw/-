@@ -62,8 +62,10 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  /* --bs-body-color: #212529;
+  --bs-body-bg: #fff; */
+  --bs-body-color: #fff;
+  --bs-body-bg: #212529;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -4787,7 +4789,8 @@ fieldset:disabled .btn {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #fff;
+  /* --bs-card-bg: #fff; */
+  --bs-card-bg: #000;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -4837,6 +4840,7 @@ fieldset:disabled .btn {
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
+  color: #d3d3d3;
 }
 
 .card-subtitle {
@@ -4972,8 +4976,10 @@ fieldset:disabled .btn {
 }
 
 .accordion {
-  --bs-accordion-color: #212529;
-  --bs-accordion-bg: #fff;
+  /* --bs-accordion-color: #212529;
+  --bs-accordion-bg: #fff; */
+  --bs-accordion-color: #fff;
+  --bs-accordion-bg: #000;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
   --bs-accordion-border-width: 1px;
@@ -4992,8 +4998,10 @@ fieldset:disabled .btn {
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
-  --bs-accordion-active-color: #0c63e4;
-  --bs-accordion-active-bg: #e7f1ff;
+  /* --bs-accordion-active-color: #0c63e4; */
+  --bs-accordion-active-color: #d3d3d3;
+  /* --bs-accordion-active-bg: #e7f1ff; */
+  --bs-accordion-active-bg: #333;
 }
 
 .accordion-button {
@@ -9097,7 +9105,7 @@ fieldset:disabled .btn {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #d3d3d3 !important;
 }
 
 .text-black-50 {
