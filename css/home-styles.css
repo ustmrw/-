@@ -36,7 +36,6 @@
   --bs-gray-900: #212529;
   --bs-primary: #2937f0;
   --bs-secondary: #9f1ae2;
-  --bs-secondary: #8EF0CF;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -2870,10 +2869,8 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #fff;
-  /* --bs-btn-bg: #9f1ae2; */
-  --bs-btn-bg: #8EF0CF;
-  /* --bs-btn-border-color: #9f1ae2; */
-  --bs-btn-border-color: #8EF0CF;
+  --bs-btn-bg: #9f1ae2;
+  --bs-btn-border-color: #9f1ae2;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #8716c0;
   --bs-btn-hover-border-color: #7f15b5;
@@ -2883,10 +2880,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #7714aa;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  /* --bs-btn-disabled-bg: #9f1ae2; */
-  --bs-btn-disabled-bg: #8EF0CF;
-  /* --bs-btn-disabled-border-color: #9f1ae2; */
-  --bs-btn-disabled-border-color: #8EF0CF;
+  --bs-btn-disabled-bg: #9f1ae2;
+  --bs-btn-disabled-border-color: #9f1ae2;
 }
 
 .btn-success {
@@ -3010,26 +3005,26 @@ textarea.form-control-lg {
 
 .btn-outline-secondary {
   /* --bs-btn-color: #9f1ae2; */
-  --bs-btn-color: #8EF0CF;
+  --bs-btn-color: #20c997;
   /* --bs-btn-border-color: #9f1ae2; */
-  --bs-btn-border-color: #8EF0CF;
+  --bs-btn-border-color: #20c997;
   --bs-btn-hover-color: #fff;
   /* --bs-btn-hover-bg: #9f1ae2; */
-  --bs-btn-hover-bg: #8EF0CF;
+  --bs-btn-hover-bg: #20c997;
   /* --bs-btn-hover-border-color: #9f1ae2; */
-  --bs-btn-hover-border-color: #8EF0CF;
+  --bs-btn-hover-border-color: #20c997;
   --bs-btn-focus-shadow-rgb: 159, 26, 226;
   --bs-btn-active-color: #fff;
   /* --bs-btn-active-bg: #9f1ae2; */
-  --bs-btn-active-bg: #8EF0CF;
+  --bs-btn-active-bg: #20c997;
   /* --bs-btn-active-border-color: #9f1ae2; */
-  --bs-btn-active-border-color: #8EF0CF;
+  --bs-btn-active-border-color: #20c997;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   /* --bs-btn-disabled-color: #9f1ae2; */
-  --bs-btn-disabled-color: #8EF0CF;
+  --bs-btn-disabled-color: #20c997;
   --bs-btn-disabled-bg: transparent;
   /* --bs-btn-disabled-border-color: #9f1ae2; */
-  --bs-btn-disabled-border-color: #8EF0CF;
+  --bs-btn-disabled-border-color: #20c997;
   --bs-gradient: none;
 }
 
@@ -3795,7 +3790,7 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 .navbar-brand:hover, .navbar-brand:focus {
-  background: linear-gradient(45deg, #2937f0, #8EF0CF); /* Replace with your desired gradient colors */
+  background: linear-gradient(45deg, #2937f0, #20c997);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -6735,7 +6730,7 @@ textarea.form-control-lg {
 
 .link-secondary {
   /* color: #9f1ae2 !important; */
-  color: #8EF0CF !important;
+  color: #20c997 !important;
 }
 .link-secondary:hover, .link-secondary:focus {
   color: #7f15b5 !important;
@@ -10867,7 +10862,7 @@ html {
 
 .bg-gradient-primary-to-secondary {
   /* background: linear-gradient(45deg, #2937f0, #9f1ae2) !important; */
-  background: linear-gradient(45deg, #2937f0, #8EF0CF) !important;
+  background: linear-gradient(45deg, #2937f0, #20c997) !important;
 }
 
 .font-alt {
@@ -10876,7 +10871,7 @@ html {
 
 .text-gradient {
   /* background: -webkit-linear-gradient(#2937f0, #9f1ae2); */
-  background: -webkit-linear-gradient(#2937f0, #8EF0CF);
+  background: -webkit-linear-gradient(#2937f0, #20c997);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10904,8 +10899,10 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #212529;
 }
+
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -10918,7 +10915,7 @@ section {
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #212529;
+  color: #fff;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #6c757d;
@@ -11029,7 +11026,7 @@ section.cta:before {
 }
 .features-device-mockup .circle .gradient-end-color {
   /* stop-color: #9f1ae2; */
-  stop-color: #8EF0CF;
+  stop-color: #20c997;
 }
 .features-device-mockup .shape-1 {
   position: absolute;
@@ -11142,7 +11139,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 .masthead .masthead-device-mockup .circle .gradient-end-color {
   /* stop-color: #9f1ae2; */
-  stop-color: #8EF0CF;
+  stop-color: #20c997;
 }
 .masthead .masthead-device-mockup .shape-1 {
   position: absolute;
