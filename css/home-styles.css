@@ -95,6 +95,7 @@
   height: 25px; /* Adjust the height as needed */
   margin-right: 10px; /* Add spacing between the logo and text */
   margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 body {
