@@ -11052,6 +11052,11 @@ section.cta:before {
   font-size: 4rem;
 }
 
+    /* Lighten icons on hover */
+    .icon-feature:hover {
+        filter: brightness(150%);
+    }
+
 .features-device-mockup {
   display: flex;
   align-items: center;
