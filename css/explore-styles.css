@@ -4315,8 +4315,10 @@ fieldset:disabled .btn {
 }
 
 .navbar-toggler {
-  transform-style: preserve-3d; /* Preserve the 3D transformation */
-  transition: transform 0.5s; /* Add a transition for smooth animation */
+  transform-style: preserve-3d;
+  /* Preserve the 3D transformation */
+  transition: transform 0.5s;
+  /* Add a transition for smooth animation */
   display: inline-block;
   background-color: transparent;
   border: none;
@@ -4325,7 +4327,8 @@ fieldset:disabled .btn {
 }
 
 .navbar-toggler.flipped {
-  transform: perspective(1000px) rotateX(180deg); /* Apply the flipped state */
+  transform: perspective(1000px) rotateX(180deg);
+  /* Apply the flipped state */
 }
 
 .navbar>.container,
@@ -4797,6 +4800,10 @@ fieldset:disabled .btn {
   --bs-navbar-brand-hover-color: #fff;
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.icon {
+  font-size: 150px;
 }
 
 .card {
@@ -12684,6 +12691,7 @@ html {
 .resize-img-40 {
   width: 40px;
   height: 40px;
+  object-fit: cover;
 }
 
 .resize-img-150 {
@@ -12706,4 +12714,18 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.image-container i {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
