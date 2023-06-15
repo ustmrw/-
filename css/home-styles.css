@@ -91,6 +91,12 @@
   }
 }
 
+.logo-img {
+  height: 25px; /* Adjust the height as needed */
+  margin-right: 10px; /* Add spacing between the logo and text */
+  margin-bottom: 5px;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -3780,6 +3786,14 @@ textarea.form-control-lg {
   border: none;
   outline: none;
   box-shadow: none;
+}
+
+.logo-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-img:hover {
+  transform: rotate(-15deg);
 }
 
 .navbar-toggler.flipped {
