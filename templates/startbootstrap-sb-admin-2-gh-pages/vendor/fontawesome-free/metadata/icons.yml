@@ -3331,7 +3331,7 @@ chalkboard:
   search:
     terms:
       - blackboard
-      - learning
+      - exploreing
       - school
       - teaching
       - whiteboard
@@ -3348,7 +3348,7 @@ chalkboard-teacher:
     terms:
       - blackboard
       - instructor
-      - learning
+      - exploreing
       - professor
       - school
       - whiteboard
@@ -8814,7 +8814,7 @@ graduation-cap:
       - ceremony
       - college
       - graduate
-      - learning
+      - exploreing
       - school
       - student
   styles:
@@ -15987,7 +15987,7 @@ school:
     terms:
       - building
       - education
-      - learn
+      - explore
       - student
       - teacher
   styles:
