@@ -3808,7 +3808,7 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 .navbar-brand:hover, .navbar-brand:focus {
-  background: linear-gradient(45deg, #2937f0, #20c997);
+  background: linear-gradient(45deg, #9bc7f4, #8ef1cc);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10901,7 +10901,7 @@ html {
 }
 
 .gradient-letter {
-  background: linear-gradient(45deg, #2937f0, #20c997);
+  background: linear-gradient(45deg, #9bc7f4, #8ef1cc);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -10915,7 +10915,7 @@ html {
 
 .text-gradient {
   /* background: -webkit-linear-gradient(#2937f0, #9f1ae2); */
-  background: -webkit-linear-gradient(#2937f0, #20c997);
+  background: -webkit-linear-gradient(#9bc7f4, #8ef1cc);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10933,7 +10933,7 @@ section {
 }
 
 .app-badge:hover {
-  filter: brightness(1.8); /* Lighten the badge on hover */
+  filter: brightness(1.5); /* Lighten the badge on hover */
 }
 
 .app-badge:active {
@@ -10951,7 +10951,7 @@ section {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:active {
-  color: #2937f0;
+  color: lightgray;
 }
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
@@ -10959,13 +10959,13 @@ section {
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #fff;
+  color: lightgray;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #6c757d;
+  color: white;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #2937f0;
+  color: lightblue;
 }
 
 /*!
