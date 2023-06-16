@@ -2710,7 +2710,8 @@ fieldset:disabled a.btn {
 .btn-primary:focus {
     color: #fff;
     background-color: #2e59d9;
-    border-color: #2653d4;
+    border-color: fff;
+    /* border-color: #2653d4; */
     box-shadow: 0 0 0 .2rem rgba(105, 136, 228, .5)
 }
 
@@ -3312,23 +3313,27 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #4e73df;
+    /* color: #4e73df; */
+    color: #fff;
     text-decoration: none
 }
 
 .btn-link:hover {
-    color: #224abe;
+    /* color: #224abe; */
+    color: #fff;
     text-decoration: underline
 }
 
 .btn-link.focus,
 .btn-link:focus {
+    color: #fff;
     text-decoration: underline
 }
 
 .btn-link.disabled,
 .btn-link:disabled {
-    color: #858796;
+    /* color: #858796; */
+    color: #fff;
     pointer-events: none
 }
 
