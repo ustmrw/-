@@ -132,10 +132,10 @@
 .underline-link::after {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: -2px;
-  left: 0;
+  width: 75%;
+  height: 1px;
+  bottom: -1px;
+  left: 7px;
   background-color: #fff; /* Set the desired underline color */
   visibility: hidden;
   transform: scaleX(0);
