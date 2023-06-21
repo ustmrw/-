@@ -12730,7 +12730,6 @@ html {
   object-fit: contain;
 }
 
-
 #timeline {
   display: flex;
   background-color: #031625;
@@ -12746,7 +12745,7 @@ html {
   transform: translate3d(0, 0, 0);
   position: relative;
   width: 25%;
-  height: 100vh;
+  height: 90vh;
   min-height: 600px;
   color: #fff;
   overflow: hidden;
@@ -12804,22 +12803,22 @@ html {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin: 0 1.618em;
-  top: 55%;
+  margin: 0 1rem;
+  top: 40%;
   opacity: 0;
   
   h1 {
     font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     color: #1779cf;
-    font-size: 1.44rem;
+    font-size: 1.5rem;
     font-weight: normal;
   }
 }
 
 .tl-year {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
@@ -12828,7 +12827,7 @@ html {
   
   p {
     font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 1.728rem;
+    font-size: 2rem;
     line-height: 0;
   }
 }
