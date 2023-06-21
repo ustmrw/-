@@ -12774,7 +12774,7 @@ html {
   }
 
   &:hover {
-    width: 30% !important;
+    width: 45% !important;
     
     &:after {
       opacity: 0;
