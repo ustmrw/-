@@ -3855,7 +3855,7 @@ textarea.form-control-lg {
 }
 
 .logo-img:hover {
-  transform: rotate(-15deg);
+  transform: rotate(15deg);
 }
 
 .navbar-toggler.flipped {
