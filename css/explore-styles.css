@@ -12738,7 +12738,7 @@ html {
 
   &:hover {
     .tl-item {
-      width: 23.3333%;
+      width: 20%;
     }
   }
 }
@@ -12747,7 +12747,7 @@ html {
   transform: translate3d(0, 0, 0);
   position: relative;
   width: 25%;
-  height: 90vh;
+  height: 50vh;
   min-height: 600px;
   color: #fff;
   overflow: hidden;
@@ -12776,7 +12776,7 @@ html {
   }
 
   &:hover {
-    width: 45% !important;
+    width: 40% !important;
     
     &:after {
       opacity: 0;
