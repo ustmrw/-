@@ -12683,6 +12683,7 @@ html {
 .bg-featured-blog {
   height: 100%;
   width: 100%;
+  object-fit: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
