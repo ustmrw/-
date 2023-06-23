@@ -12637,22 +12637,23 @@ body.sidebar-toggled footer.sticky-footer {
 /* ================
 Calendar Styling */
 .calendar {
-    border-radius: 10px;
+    border-radius: none;
 }
 
 .month {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media (min-width: 992px) {
     .month {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 }
 
 .calendar ol li {
     float: left;
-    width: 14.28571%;
+    width: 14.25%;
 }
 
 .calendar .day-names {
