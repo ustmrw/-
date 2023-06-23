@@ -4403,17 +4403,17 @@ fieldset:disabled .btn {
   box-shadow: none;
 }
 
+.navbar-toggler.flipped {
+  transform: perspective(1000px) rotateX(180deg);
+  /* Apply the flipped state */
+}
+
 .logo-img {
   transition: transform 0.3s ease-in-out;
 }
 
 .logo-img:hover {
   transform: rotate(15deg);
-}
-
-.navbar-toggler.flipped {
-  transform: perspective(1000px) rotateX(180deg);
-  /* Apply the flipped state */
 }
 
 .navbar>.container,
