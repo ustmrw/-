@@ -118,15 +118,6 @@
   opacity: 1;
 }
 
-.logo-img {
-  height: 25px;
-  /* Adjust the height as needed */
-  margin-right: 14px;
-  /* Add spacing between the logo and text */
-  margin-bottom: 5px;
-  margin-left: 14px;
-}
-
 .underline-link {
   position: relative;
   display: inline-flex;
@@ -4409,6 +4400,12 @@ fieldset:disabled .btn {
 }
 
 .logo-img {
+  height: 25px;
+  /* Adjust the height as needed */
+  margin-right: 14px;
+  /* Add spacing between the logo and text */
+  margin-bottom: 5px;
+  margin-left: 14px;
   transition: transform 0.3s ease-in-out;
 }
 
