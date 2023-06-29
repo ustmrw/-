@@ -12971,11 +12971,13 @@ html {
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
   border: 1px solid transparent;
   transition: .5s;
+  background-color: #111;
 }
 
 .cat-item:hover {
   border-color: rgba(0, 0, 0, .08);
   box-shadow: none;
+  background-color: #f0f0f0;
 }
 
 
