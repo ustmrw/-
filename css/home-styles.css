@@ -4357,7 +4357,7 @@ fieldset:disabled .btn {
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-padding-y: 0.25rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
@@ -4400,11 +4400,10 @@ fieldset:disabled .btn {
 }
 
 .logo-img {
-  height: 25px;
+  height: 30px;
   /* Adjust the height as needed */
   margin-right: 14px;
   /* Add spacing between the logo and text */
-  margin-bottom: 5px;
   margin-left: 14px;
   transition: transform 0.3s ease-in-out;
 }

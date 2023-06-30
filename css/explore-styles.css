@@ -118,11 +118,10 @@
 
 
 .logo-img {
-  height: 25px;
+  height: 30px;
   /* Adjust the height as needed */
   margin-right: 14px;
   /* Add spacing between the logo and text */
-  margin-bottom: 5px;
   margin-left: 14px;
   transition: transform 0.3s ease-in-out;
 }
@@ -4334,7 +4333,7 @@ fieldset:disabled .btn {
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-padding-y: 0.25rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
@@ -12968,14 +12967,14 @@ html {
 /*** Category ***/
 .cat-item {
   display: block;
-  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  box-shadow: 0 0 45px rgba(255, 255, 255, .08);
   border: 1px solid transparent;
   transition: .5s;
   background-color: #111;
 }
 
 .cat-item:hover {
-  border-color: rgba(0, 0, 0, .08);
+  border-color: rgba(255, 255, 255, .08);
   box-shadow: none;
   background-color: #f0f0f0;
 }
@@ -12988,6 +12987,20 @@ html {
   border-radius: 2px;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
   transition: .5s;
+}
+
+@media (max-width: 767px) {
+  .job-item {
+    padding: 15px;
+    /* Adjust the padding as desired */
+    margin-left: 10px;
+    /* Adjust the margin as desired */
+    margin-right: 10px;
+    /* Adjust the margin as desired */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .job-item:hover {
