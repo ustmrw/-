@@ -119,11 +119,10 @@
 
 
 .logo-img {
-  height: 25px;
+  height: 30px;
   /* Adjust the height as needed */
   margin-right: 14px;
   /* Add spacing between the logo and text */
-  margin-bottom: 5px;
   margin-left: 14px;
   transition: transform 0.3s ease-in-out;
 }
@@ -7762,11 +7761,13 @@ fieldset:disabled .btn {
 
 .link-light {
   color: #f8f9fa !important;
+  text-decoration: none;
 }
 
 .link-light:hover,
 .link-light:focus {
   color: #f9fafb !important;
+  text-decoration: underline;
 }
 
 .link-dark {
