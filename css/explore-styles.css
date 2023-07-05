@@ -7814,11 +7814,13 @@ fieldset:disabled .btn {
 
 .link-light {
   color: #f8f9fa !important;
+  text-decoration: none;
 }
 
 .link-light:hover,
 .link-light:focus {
   color: #f9fafb !important;
+  text-decoration: underline;
 }
 
 .link-dark {
@@ -12795,7 +12797,7 @@ html {
   min-height: 600px;
   color: #fff;
   overflow: hidden;
-  transition: width 400ms ease;
+  transition: width 300ms ease;
 
   &:before,
   &:after {
@@ -12811,7 +12813,7 @@ html {
   &:after {
     background: transparentize(#031625, 0.15);
     opacity: 1;
-    transition: opacity 400ms ease;
+    transition: opacity 300ms ease;
   }
 
   &:before {
@@ -12819,11 +12821,11 @@ html {
     z-index: 1;
     opacity: 0;
     transform: translate3d(0, 0, 0) translateY(50%);
-    transition: opacity 400ms ease, transform 400ms ease;
+    transition: opacity 300ms ease, transform 300ms ease;
   }
 
   &:hover {
-    width: 40% !important;
+    width: 70% !important;
 
     &:after {
       opacity: 0;
@@ -12832,13 +12834,13 @@ html {
     &:before {
       opacity: 1;
       transform: translate3d(0, 0, 0) translateY(0);
-      transition: opacity 800ms ease, transform 800ms ease 200ms;
+      transition: opacity 300ms ease, transform 300ms ease 300ms;
     }
 
     .tl-content {
       opacity: 1;
       transform: translateY(0);
-      transition: all 600ms ease 400ms;
+      transition: all 300ms ease 300ms;
     }
 
     .tl-bg {
@@ -12853,7 +12855,7 @@ html {
   z-index: 1;
   text-align: center;
   margin: 0 1rem;
-  top: 40%;
+  top: 33%;
   opacity: 0;
 
   h1 {
@@ -12867,7 +12869,7 @@ html {
 
 .tl-year {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
