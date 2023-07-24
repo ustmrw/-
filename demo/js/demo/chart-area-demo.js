@@ -117,7 +117,7 @@ var myLineChart = new Chart(ctx, {
   }
 });
 
-var ctx = document.getElementById("ufnGrowthAreaChart");
+var ctx = document.getElementById("USNGrowthAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
