@@ -21,17 +21,17 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PZ6MJ33');</script>
     <!-- End Google Tag Manager -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script>
         $(document).ready(function () {
-            // Smooth scrolling when clicking on navigation links
             $('a[href^="#"]').on('click', function (event) {
                 var target = $(this.getAttribute('href'));
                 if (target.length) {
                     event.preventDefault();
+                    var scrollSpeed = 100;
                     $('html, body').stop().animate({
                         scrollTop: target.offset().top
-                    }, 800);
+                    }, scrollSpeed);
                 }
             });
         });
