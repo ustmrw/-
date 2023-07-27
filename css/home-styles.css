@@ -1,16 +1,4 @@
 @charset "UTF-8";
-
-/*!
-* Start Bootstrap - New Age v6.0.7 (https://startbootstrap.com/theme/new-age)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.3.0 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #2937f0;
   --bs-indigo: #6610f2;
@@ -124,7 +112,6 @@
   align-items: center;
   text-decoration: none;
   color: #000;
-  /* Set the desired link color */
 }
 
 .underline-link::after {
@@ -135,9 +122,7 @@
   bottom: -1px;
   left: 12.5%;
   transform: translateX(-12.5%);
-  /* Center the underline horizontally */
   background-color: #fff;
-  /* Set the desired underline color */
   visibility: hidden;
   transform: scaleX(0);
   transition: all 250ms ease-in-out;
@@ -12916,7 +12901,7 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://images.unsplash.com/photo-1469980098053-382eb10ba017?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80");
+  background-image: url(../img/patrick-mcmanaman.jpg);
   background-position: center;
   background-size: cover;
 }
