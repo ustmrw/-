@@ -7066,9 +7066,9 @@ button.bg-success:hover {
 }
 
 .bg-info {
-    background-color: #36b9cc !important
-}
-
+    background-image: linear-gradient(135deg, #2980b9, #2c3e50) !important;
+  }
+  
 a.bg-info:focus,
 a.bg-info:hover,
 button.bg-info:focus,
