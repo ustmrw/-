@@ -2566,7 +2566,7 @@ textarea.form-control.is-invalid {
   --bs-btn-font-size: 1.2rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
-  --bs-btn-color: #212529;
+  --bs-btn-color: #fff;
   --bs-btn-bg: transparent;
   --bs-btn-border-width: 1px;
   --bs-btn-border-color: transparent;

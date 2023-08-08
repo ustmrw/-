@@ -117,7 +117,7 @@ var myLineChart = new Chart(ctx, {
   }
 });
 
-var ctx = document.getElementById("USNGrowthAreaChart");
+var ctx = document.getElementById("USGrowthAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
@@ -135,7 +135,7 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [0.1, 0.2, 0.3, 1.5, 12, 58, 130, 277, 355, 500],
+      data: [340, 342, 344, 345, 347, 349, 350, 352, 354, 355],
     }],
   },
   options: {
