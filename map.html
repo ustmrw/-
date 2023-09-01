@@ -84,7 +84,9 @@
                                     <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
                                     <li class="nav-item"><a class="nav-link" href="explore.html">Explore</a></li>
                                     <li class="nav-item active"><a class="nav-link"
-                                            href="map.html"><strong>Map</strong></a></li><br>
+                                            href="map.html"><strong>Map</strong></a></li>
+                                    <input id="searchbar" onkeyup="search_items()" type="text"
+                                    name="search" placeholder="Search">
                                     <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Theme</a>
@@ -103,12 +105,12 @@
                                     <a class="dropdown-item" href="#!">Cancel</a>
                                 </div>
                             </li> -->
-                                </ul>
-                            </div>
+                        </ul>
                     </div>
+                </div>
             </nav>
             <!-- Page content-->
-            <div class="container-fluid bg-dark text-light">
+            <div class="container-fluid bg-dark text-light" id="list">
                 </br>
                 <h1 class="p-1 bg-dark text-light" style="font-weight: 400;">Map</h1>
                 <hr />

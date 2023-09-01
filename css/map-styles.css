@@ -3617,6 +3617,35 @@ fieldset:disabled .btn {
   flex-grow: 1;
   align-items: center
 }
+#searchbar{
+	margin-left: 5%;
+	margin-right: 5%;
+	padding:15px;
+  height: 40px;
+	border-radius: 10px;
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 150ms ease-in-out;
+	transition: width 150ms ease-in-out;
+}
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:hover {
+	width: 70%;
+}
+input[type=text]:focus {
+	width: 100%;
+}
+#list{
+	font-size: 1.5em;
+	margin-left: 90px;
+}
+.nav-link{
+display: list-item;	
+}
 .navbar-toggler {
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
@@ -4573,6 +4602,9 @@ fieldset:disabled .btn {
   width: 100%;
   color: var(--bs-list-group-action-color);
   text-align: inherit
+}
+ul {
+  list-style: none;
 }
 .list-group-item-action:focus,
 .list-group-item-action:hover {
